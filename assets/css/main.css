@@ -1,0 +1,65 @@
+.wrapper {
+    margin: 0 12rem;
+    padding: 0 .6rem;
+}
+.header {
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    z-index: -1;
+}
+
+.header__navbar {
+    padding: 2.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__navabr-logo {
+width: 12.5rem;
+height: 4rem;
+}
+.header__navbar-list {
+width: 58rem;
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+.header__navba-item {
+}
+.header__navbar-item--text {
+color: var(--white-color);
+font-size: 1.4rem;
+}
+.header__navbar-btn {
+
+}
+.header__navbar-btn--logIn {
+background-color: rgba(0, 0, 0, 0.155);
+color: #3b81f6;
+border: 0.2px solid var(--white-color);
+}
+.header__navbar-btn--signUp {
+   background-color: #5fa4f9;
+   color: var(--white-color);
+   border: none;
+    margin-left: 0.6rem;
+}
+.header__navbar-btn--logIn,
+.header__navbar-btn--signUp {
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    border-radius:4px ;
+}
+
+.home__box {
+    width: 20rem;
+    height: 22rem;
+    background-color: var(--white-color);
+    padding: 1.6rem 0 ;
+}
+.home__box-item {
+    padding: 0.8rem 2.8rem;
+    font-size: 1.6rem;
+}
