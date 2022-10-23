@@ -26,6 +26,14 @@
         opacity: 1;
       }
     }
+    @keyframes teleTop {
+      from {
+        transform: translateY(30%);
+      }
+      to {
+        transform: translateY(3%);
+      }
+    }
     body {
     height: 1000vh;
     background-color: #fafafa;
