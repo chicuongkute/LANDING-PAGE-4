@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 
 }
 .header__navabr-logo {
@@ -185,6 +186,7 @@ border: 0.2px solid var(--white-color);
 display: flex;
 flex-direction:column ;
 align-items: center;
+margin-top: 2rem;
 }
 .header__intro-header {
 width: 55.2rem;
@@ -197,17 +199,51 @@ text-align: center;
 color: #3b81f6;
 }
 .header__intro-btn {
-
+margin-bottom: 10rem;
 }
 .header__intro-btn--left {
-
+background-color: #3b81f6;
+color: var(--white-color);
 }
 .header__intro-btn--right {
+background-color: var(--white-color);
+}
+.header__intro-btn--left,
+.header__intro-btn--right {
+    padding: 1.6rem 3.2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 0 4px;
+
+}
+.header__intro-btn--left:hover,
+.header__intro-btn--right:hover {
+    transform: translateY(-5%);
+    cursor: pointer;
+}
+.header__intro-slogan {
+    width: 50rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #91a0b5;
+    border-right: 2px solid rgba(255,255,255,.75);
+    margin: 2.4rem 0 3.3rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+}
+.header__intro-slogan--name {
+color: #3b81f6;
 
 }
 .header__intro-footer {
-
+width: 80%;
+display: flex;
+justify-content: space-around;
 }
 .header__intro-footer--img {
+width: 12rem;
+height: 7rem;
+object-fit: contain;
 
 }
