@@ -64,6 +64,7 @@
     /* ----------- */
     .container__dream {
       position: relative;
+      padding-bottom: 9.6rem ;
     }
     .container__dream-header::after {
       content: "";
