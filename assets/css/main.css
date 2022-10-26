@@ -226,7 +226,6 @@ background-color: var(--white-color);
     text-align: center;
     font-size: 1.8rem;
     color: #91a0b5;
-    border-right: 2px solid rgba(255,255,255,.75);
     margin: 2.4rem 0 3.3rem 0;
     white-space: nowrap;
     overflow: hidden;

@@ -1,360 +1,562 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="./assets/css/grid.css">
-  <link rel="stylesheet" href="./assets/css/reponsive.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <title>Document</title>
-</head>
-<body>
-<header style=" background-image: url(https://images-ext-1.discordapp.net/external/BN0gMzYg3tWtcR9KcJ8cewbRZL9aSfeadVLdif72Fws/https/monst-nextjs.vercel.app/assets/imgs/placeholders/img-15.jpg?width=1834&height=936)"class="header">
-
-  <div class="header__navbar wrapper">
-    <img src="./assets/img/Monst.svg" alt="" class="header__navabr-logo">
-  <ul class="header__navbar-list">
-    <li class="header__navbar-item home__box--hover">
-      <span class="header__navbar-item--text ">Home</span>
-      <ul class="home__box">
-        <li class="home__box-item"><span>Landing page 1</span></li>
-        <li class="home__box-item"><span>Landing page 2</span></li>
-        <li class="home__box-item"><span>Landing page 3</span></li>
-        <li class="home__box-item"><span>Landing page 4</span></li>
-        <li class="home__box-item"><span>Landing page 5</span></li>
-      </ul>
-    </li>
-    <li class="header__navbar-item">
-      <span class="header__navbar-item--text">About Us</span>
-    </li>
-    <li class="header__navbar-item">
-      <span class="header__navbar-item--text">Services</span>
-    </li>
-    <li class="header__navbar-item company__box-hover ">
-      <span class="header__navbar-item--text">Company</span>
-      <ul class="company__box">
-        <li class="company__box-item"><span>Portfolio</span></li>
-        <li class="company__box-item"><span>Team</span></li>
-        <li class="company__box-item"><span>Testimonial</span></li>
-        <li class="company__box-item"><span>Pricing</span></li>
-        <li class="company__box-item"><span>Faqs</span></li>
-        <li class="company__box-item"><span>404</span></li>
-      </ul>
-    </li>
-    <li class="header__navbar-item blog__box-hover">
-      <span class="header__navbar-item--text">Blog</span>
-      <ul class="blog__box">
-        <li class="blog__box-item"><span>category 1</span></li>
-        <li class="blog__box-item"><span>category 2</span></li>
-        <li class="blog__box-item"><span>single 1</span></li>
-        <li class="blog__box-item"><span>single 2</span></li>
-      </ul>
-    </li>
-    <li class="header__navbar-item">
-      <span class="header__navbar-item--text">Contact</span>
-    </li>
-  </ul>
-  <div class="header__navbar-btn">
-    <button class="header__navbar-btn--logIn">Log In</button>
-    <button class="header__navbar-btn--signUp">Sign Up</button>
-  </div>
-  </div>
-  <div class=" header__intro wrapper">
-    <h1 class="header__intro-header">Committed to People 
-            Committed <span>to the Future</span>
-    </h1>
-    <span class="header__intro-slogan anim-typewriter anim-typewriter-2">We are <span class="header__intro-slogan--name">Most</span>, a Creative Design Social Marketing</span>
-    <div class="header__intro-btn">
-      <button class="header__intro-btn--left">Key Features</button>
-      <button class="header__intro-btn--right">How We Work ?</button>
-    </div>
-    <div class="header__intro-footer grid">
-      <div class="row col l-o-2 ">
-        <img src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-1.png" alt="" class="header__intro-footer--img l-2">
-        <img src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-2.png" alt="" class="header__intro-footer--img l-2">
-        <img src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-3.png" alt="" class="header__intro-footer--img l-2">
-        <img src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-4.png" alt="" class="header__intro-footer--img l-2">
-        <img src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-5.png" alt="" class="header__intro-footer--img l-2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/reponsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      style="
+        background-image: url(https://images-ext-1.discordapp.net/external/BN0gMzYg3tWtcR9KcJ8cewbRZL9aSfeadVLdif72Fws/https/monst-nextjs.vercel.app/assets/imgs/placeholders/img-15.jpg?width=1834&height=936);
+      "
+      class="header"
+    >
+      <div class="header__navbar wrapper">
+        <img src="./assets/img/Monst.svg" alt="" class="header__navabr-logo" />
+        <ul class="header__navbar-list">
+          <li class="header__navbar-item home__box--hover">
+            <span class="header__navbar-item--text">Home</span>
+            <ul class="home__box">
+              <li class="home__box-item"><span>Landing page 1</span></li>
+              <li class="home__box-item"><span>Landing page 2</span></li>
+              <li class="home__box-item"><span>Landing page 3</span></li>
+              <li class="home__box-item"><span>Landing page 4</span></li>
+              <li class="home__box-item"><span>Landing page 5</span></li>
+            </ul>
+          </li>
+          <li class="header__navbar-item">
+            <span class="header__navbar-item--text">About Us</span>
+          </li>
+          <li class="header__navbar-item">
+            <span class="header__navbar-item--text">Services</span>
+          </li>
+          <li class="header__navbar-item company__box-hover">
+            <span class="header__navbar-item--text">Company</span>
+            <ul class="company__box">
+              <li class="company__box-item"><span>Portfolio</span></li>
+              <li class="company__box-item"><span>Team</span></li>
+              <li class="company__box-item"><span>Testimonial</span></li>
+              <li class="company__box-item"><span>Pricing</span></li>
+              <li class="company__box-item"><span>Faqs</span></li>
+              <li class="company__box-item"><span>404</span></li>
+            </ul>
+          </li>
+          <li class="header__navbar-item blog__box-hover">
+            <span class="header__navbar-item--text">Blog</span>
+            <ul class="blog__box">
+              <li class="blog__box-item"><span>category 1</span></li>
+              <li class="blog__box-item"><span>category 2</span></li>
+              <li class="blog__box-item"><span>single 1</span></li>
+              <li class="blog__box-item"><span>single 2</span></li>
+            </ul>
+          </li>
+          <li class="header__navbar-item">
+            <span class="header__navbar-item--text">Contact</span>
+          </li>
+        </ul>
+        <div class="header__navbar-btn">
+          <button class="header__navbar-btn--logIn">Log In</button>
+          <button class="header__navbar-btn--signUp">Sign Up</button>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
-<div class="container">
-  <div class="container__intro grid ">
-  <div class="row l-o-1 wrapper">
-    <div class="container__intro-left l-3 ">
-      <div class="container__intro-box">
-        <img src="/assets/img/people.svg" alt="" class="container__intro-box--img">
-        <h3 class="container__intro-box--title">Looking for Creative</h3>
-        <span class="container__intro-box--content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-      </div>
-      <div class="container__intro-box">
-        <img src="/assets/img/xetai.svg" alt="" class="container__intro-box--img">
-        <h3 class="container__intro-box--title">Project Initialization</h3>
-        <span class="container__intro-box--content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-      </div>
-    </div>
-    <div class="container__intro-right l-6 l-o-1">
-      <div class="container__intro-firstHeader">Why choose us</div>
-      <h1 class="container__intro-secondHeader">Key Features</h1>
-      <ul class="container__intro-list">
-        <li class="container__intro-item">
-          <img src="./assets/img/key.svg" alt="" class="container__intro-item--img">
-          <div class="container__intro-item--text">
-            <h3 class="container__intro-item--name">Expand Your Reach</h3>
-            <span class="container__intro-item--content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.
-            </span>
+      <div class="header__intro wrapper">
+        <h1 class="header__intro-header">
+          Committed to People Committed <span>to the Future</span>
+        </h1>
+        <span id="typing" class="header__intro-slogan"></span>
+        <div class="header__intro-btn">
+          <button class="header__intro-btn--left">Key Features</button>
+          <button class="header__intro-btn--right">How We Work ?</button>
+        </div>
+        <div class="header__intro-footer grid">
+          <div class="row col l-o-2">
+            <img
+              src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-1.png"
+              alt=""
+              class="header__intro-footer--img l-2 c-3"
+            />
+            <img
+              src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-2.png"
+              alt=""
+              class="header__intro-footer--img l-2 c-3"
+            />
+            <img
+              src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-3.png"
+              alt=""
+              class="header__intro-footer--img l-2 c-3"
+            />
+            <img
+              src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-4.png"
+              alt=""
+              class="header__intro-footer--img l-2 c-3"
+            />
+            <img
+              src="https://monst-nextjs.vercel.app/assets/imgs/logos/brands/brand-5.png"
+              alt=""
+              class="header__intro-footer--img l-2 c-3"
+            />
           </div>
-        </li>
-        <li class="container__intro-item">
-          <img src="./assets/img/key.svg" alt="" class="container__intro-item--img">
-          <div class="container__intro-item--text">
-            <h3 class="container__intro-item--name">Expand Your Reach</h3>
-            <span class="container__intro-item--content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.
-            </span>
-          </div>
-        </li>
-        <li class="container__intro-item">
-          <img src="./assets/img/key.svg" alt="" class="container__intro-item--img">
-          <div class="container__intro-item--text">
-            <h3 class="container__intro-item--name">Expand Your Reach</h3>
-            <span class="container__intro-item--content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.
-            </span>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </div>
-  <div class="container__dream  ">
-    <div class="container__dream-header grid wrapper">
-      <div class="row">
-        <h1 class="l-5">
-        We are <span>awesome team</span> for your business dream
-      </h1>
-      <p class="l-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, rerum in exercitationem totam iure soluta cupiditate similique dolorum beatae eveniet porro sit itaque temporibus, placeat cum distinctio? Quis, quos maiores.
-      </p>
-      </div>
-    </div>
-    <div class="grid wrapper">
-      <div class="row ">
-        <div class="container__dream-box   l-3">
-          <div class="container__dream-box--number">1</div>
-          <img src="./assets/img/dream1.svg" alt="" class="container__dream-box--img">
-          <h3 class="container__dream-box--header">Project Initialization</h3>
-          <span class="container__dream-box--text">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</span>
-        </div>
-        <div class="container__dream-box l-o-05 l-3">
-          <div class="container__dream-box--number">1</div>
-          <img src="./assets/img/dream1.svg" alt="" class="container__dream-box--img">
-          <h3 class="container__dream-box--header">Project Initialization</h3>
-          <span class="container__dream-box--text">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</span>
-        </div>
-        <div class="container__dream-box l-o-05 l-3">
-          <div class="container__dream-box--number">1</div>
-          <img src="./assets/img/dream1.svg" alt="" class="container__dream-box--img">
-          <h3 class="container__dream-box--header">Project Initialization</h3>
-          <span class="container__dream-box--text">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</span>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="container__plan wrapper">
-    <h1 class="container__plan-header">We Consultant to Get <span>Our Business</span> Plan</h1>
-    <p class="container__plan-des">Business solution company sit our any how site used the our company any site us it-solve theme is very professional
-    </p>
-    <div class="grid">
-      <div class="row">
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
-        </div>
-        <div class="container__plan-box l-2-4">
-          <img src="./assets/img/planbox.svg" alt="" class="container__plan-box--img">
-          <h3 class="container__plan-box--header">IT Consultancy</h3>
-          <p class="container__plan-box--text">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
-          </p>
+    </header>
+    <div class="container">
+      <div class="container__intro grid">
+        <div class="row l-o-1 wrapper">
+          <div class="container__intro-left l-3">
+            <div class="container__intro-box">
+              <img
+                src="/assets/img/people.svg"
+                alt=""
+                class="container__intro-box--img"
+              />
+              <h3 class="container__intro-box--title">Looking for Creative</h3>
+              <span class="container__intro-box--content"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span
+              >
+            </div>
+            <div class="container__intro-box">
+              <img
+                src="/assets/img/xetai.svg"
+                alt=""
+                class="container__intro-box--img"
+              />
+              <h3 class="container__intro-box--title">
+                Project Initialization
+              </h3>
+              <span class="container__intro-box--content"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span
+              >
+            </div>
+          </div>
+          <div class="container__intro-right l-6 l-o-1">
+            <div class="container__intro-firstHeader">Why choose us</div>
+            <h1 class="container__intro-secondHeader">Key Features</h1>
+            <ul class="container__intro-list">
+              <li class="container__intro-item">
+                <img
+                  src="./assets/img/key.svg"
+                  alt=""
+                  class="container__intro-item--img"
+                />
+                <div class="container__intro-item--text">
+                  <h3 class="container__intro-item--name">Expand Your Reach</h3>
+                  <span class="container__intro-item--content"
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Veritatis expedita animi.
+                  </span>
+                </div>
+              </li>
+              <li class="container__intro-item">
+                <img
+                  src="./assets/img/key.svg"
+                  alt=""
+                  class="container__intro-item--img"
+                />
+                <div class="container__intro-item--text">
+                  <h3 class="container__intro-item--name">Expand Your Reach</h3>
+                  <span class="container__intro-item--content"
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Veritatis expedita animi.
+                  </span>
+                </div>
+              </li>
+              <li class="container__intro-item">
+                <img
+                  src="./assets/img/key.svg"
+                  alt=""
+                  class="container__intro-item--img"
+                />
+                <div class="container__intro-item--text">
+                  <h3 class="container__intro-item--name">Expand Your Reach</h3>
+                  <span class="container__intro-item--content"
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Veritatis expedita animi.
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="best">
-    <div class="container__pricing wrapper">
-      <h1>Choose Your <span>Best</span> Pricing Plan</h1>
-      <p>Great Things In Business Are Never Done By One Person</p>
-      <div class="container__prcicing-option">
-        <div class="container__pricing-option--box">
-          <input type="radio" name="gender" >
-          <span>Monthly Billing</span>
-          <span class="price">59$</span>
-         </div>
-         <div class="container__pricing-option--box">
-          <input type="radio" name="gender" >
-          <span>Monthly Billing</span>
-          <span class="price">59$</span>
-         </div>
-    </div>
-  
-  </div>
-    <div class="wrapper">
-      <div class="container__form ">
-        <div class="container__form-Login">
-          <span>Sign In</span>
-          <h2>Setup your payment</h2>
-          <div class="container__form-input">
-            <input type="text" placeholder="name@gmail.com">
-            <img src="./assets/img/login.svg" alt="" class="container__form-icon">
+      <div class="container__dream">
+        <div class="container__dream-header grid wrapper">
+          <div class="row">
+            <h1 class="l-5">
+              We are <span>awesome team</span> for your business dream
+            </h1>
+            <p class="l-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, rerum in exercitationem totam iure soluta cupiditate
+              similique dolorum beatae eveniet porro sit itaque temporibus,
+              placeat cum distinctio? Quis, quos maiores.
+            </p>
           </div>
-          <div class="container__form-input">
-            <input type="text" placeholder="Enter your password">
-            <img src="./assets/img/login2.svg" alt="" class="container__form-icon">
+        </div>
+        <div class="grid wrapper">
+          <div class="row">
+            <div class="container__dream-box l-3">
+              <div class="container__dream-box--number">1</div>
+              <img
+                src="./assets/img/dream1.svg"
+                alt=""
+                class="container__dream-box--img"
+              />
+              <h3 class="container__dream-box--header">
+                Project Initialization
+              </h3>
+              <span class="container__dream-box--text"
+                >Project initiation ensures that you lay a strong foundation for
+                a new project in your company our team.</span
+              >
+            </div>
+            <div class="container__dream-box l-o-05 l-3">
+              <div class="container__dream-box--number">1</div>
+              <img
+                src="./assets/img/dream1.svg"
+                alt=""
+                class="container__dream-box--img"
+              />
+              <h3 class="container__dream-box--header">
+                Project Initialization
+              </h3>
+              <span class="container__dream-box--text"
+                >Project initiation ensures that you lay a strong foundation for
+                a new project in your company our team.</span
+              >
+            </div>
+            <div class="container__dream-box l-o-05 l-3">
+              <div class="container__dream-box--number">1</div>
+              <img
+                src="./assets/img/dream1.svg"
+                alt=""
+                class="container__dream-box--img"
+              />
+              <h3 class="container__dream-box--header">
+                Project Initialization
+              </h3>
+              <span class="container__dream-box--text"
+                >Project initiation ensures that you lay a strong foundation for
+                a new project in your company our team.</span
+              >
+            </div>
           </div>
-          <div class="container__form-checkbox">
-            <input type="checkbox">
+        </div>
+      </div>
+      <div class="container__plan wrapper">
+        <h1 class="container__plan-header">
+          We Consultant to Get <span>Our Business</span> Plan
+        </h1>
+        <p class="container__plan-des">
+          Business solution company sit our any how site used the our company
+          any site us it-solve theme is very professional
+        </p>
+        <div class="grid">
+          <div class="row">
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+            <div class="container__plan-box l-2-4">
+              <img
+                src="./assets/img/planbox.svg"
+                alt=""
+                class="container__plan-box--img"
+              />
+              <h3 class="container__plan-box--header">IT Consultancy</h3>
+              <p class="container__plan-box--text">
+                We believe brand interaction is key to communication. Real
+                innovations and positive customer experience are the heart of
+                success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="best">
+        <div class="container__pricing wrapper">
+          <h1>Choose Your <span>Best</span> Pricing Plan</h1>
+          <p>Great Things In Business Are Never Done By One Person</p>
+          <div class="container__prcicing-option">
+            <div class="container__pricing-option--box">
+              <input type="radio" name="gender" />
+              <span>Monthly Billing</span>
+              <span class="price">59$</span>
+            </div>
+            <div class="container__pricing-option--box">
+              <input type="radio" name="gender" />
+              <span>Monthly Billing</span>
+              <span class="price">59$</span>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="container__form">
+            <div class="container__form-Login">
+              <span>Sign In</span>
+              <h2>Setup your payment</h2>
+              <div class="container__form-input">
+                <input type="text" placeholder="name@gmail.com" />
+                <img
+                  src="./assets/img/login.svg"
+                  alt=""
+                  class="container__form-icon"
+                />
+              </div>
+              <div class="container__form-input">
+                <input type="text" placeholder="Enter your password" />
+                <img
+                  src="./assets/img/login2.svg"
+                  alt=""
+                  class="container__form-icon"
+                />
+              </div>
+              <div class="container__form-checkbox">
+                <input type="checkbox" />
+                <span>I agree to terms and conditions.</span>
+              </div>
+              <button class="container__form-btn">Purchase now</button>
+            </div>
+            <div class="container__form-right">
+              <ul class="container__form-list">
+                <span>Various Analysis Options</span>
+                <li class="container__form-item">Techno</li>
+                <li class="container__form-item">Provides</li>
+                <li class="container__form-item">Realtime Best</li>
+                <li class="container__form-item">Data Solutions.</li>
+              </ul>
+              <img
+                src="https://monst-nextjs.vercel.app/assets/imgs/illustrations/online-shopping.png"
+                alt=""
+                class="container__form-right--img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container__contact wrapper">
+        <h1 class="container__contact-header">Get in touch!</h1>
+        <h5 class="container__contact-des">We will be glad to hear from you</h5>
+        <div class="grid">
+          <div class="row l-o-2">
+            <div class="container__contact-box col l-3">
+              <img
+                src="./assets/img/phone.svg"
+                alt=""
+                class="container__contact-box--img"
+              />
+              <span class="container__contact-box--name">Phone</span>
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+            </div>
+            <div class="container__contact-box col l-3 l-o-05">
+              <img
+                src="./assets/img/phone.svg"
+                alt=""
+                class="container__contact-box--img"
+              />
+              <span class="container__contact-box--name">Phone</span>
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+            </div>
+            <div class="container__contact-box col l-3 l-o-05">
+              <img
+                src="./assets/img/phone.svg"
+                alt=""
+                class="container__contact-box--img"
+              />
+              <span class="container__contact-box--name">Phone</span>
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+              <span class="container__contact-box--content"
+                >+ 48 654-430-309</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cotainer__support wrapper">
+        <div class="cotainer__support-header">
+          <span>Departament</span>
+          <input type="radio" name="gender" /> <span>Support</span>
+          <input type="radio" name="gender" /> <span>Sales</span>
+        </div>
+        <div class="grid">
+          <div class="cotainer__support-input row l-o-2">
+            <div
+              class="container__support-input--infor l-4"
+              style="display: flex; flex-direction: column"
+            >
+              <input type="text" placeholder="Subject" />
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name@gmail.com" />
+            </div>
+            <div class="container__support-input--mess l-4">
+              <input type="text" placeholder="Message..." />
+            </div>
+          </div>
+        </div>
+        <div class="container__support-footer">
+          <div class="container__support-footer--left">
+            <input type="checkbox" />
             <span>I agree to terms and conditions.</span>
           </div>
-          <button class="container__form-btn">Purchase now</button>
-        </div> 
-        <div class="container__form-right">
-          <ul class="container__form-list">
-            <span>Various Analysis Options</span>
-            <li class="container__form-item">Techno</li>
-            <li class="container__form-item">Provides</li>
-            <li class="container__form-item">Realtime Best</li>
-            <li class="container__form-item">Data Solutions.</li>
-          </ul>
-          <img src="https://monst-nextjs.vercel.app/assets/imgs/illustrations/online-shopping.png" alt="" class="container__form-right--img">
+          <button class="container__support-footer--btn">Submit</button>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container__contact wrapper">
-    <h1 class="container__contact-header">Get in touch!</h1>
-    <h5 class="container__contact-des">We will be glad to hear from you</h5>
-   <div class="grid">
-    <div class="row l-o-2 ">
-      <div class="container__contact-box col l-3">
-        <img src="./assets/img/phone.svg" alt="" class="container__contact-box--img">
-        <span class="container__contact-box--name">Phone</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
+    <footer class="footer wrapper">
+      <div class="grid">
+        <div class="row">
+          <div class="footer__logo l-2">
+            <img src="./assets/img/Monst.svg" alt="" />
+          </div>
+          <div class="footer__help l-3 l-o-05">
+            <span
+              >Helping you maximize operations management with
+              digitization</span
+            >
+          </div>
+          <div class="footer__address l-2 l-o-2">
+            <h3>office</h3>
+            <span>359 Hidden Valley Road, NY</span>
+          </div>
+          <div class="footer__contact l-2 l-o-05">
+            <h3>Contact</h3>
+            <span>(+01) 234 568 contact@monst.com</span>
+          </div>
+        </div>
       </div>
-       <div class="container__contact-box col l-3 l-o-05">
-        <img src="./assets/img/phone.svg" alt="" class="container__contact-box--img">
-        <span class="container__contact-box--name">Phone</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
+      <div class="footer__link">
+        <div class="footer__link-left">
+          © 2022. All rights reserved. Designed by <span> Alithemes.com</span>
+        </div>
+        <div class="footer__link-right">
+          <img src="./assets/img/fb.svg" alt="" />
+          <img src="./assets/img/twitter.svg" alt="" />
+          <img src="./assets/img/insta.svg" alt="" />
+        </div>
       </div>
-      <div class="container__contact-box col l-3 l-o-05">
-        <img src="./assets/img/phone.svg" alt="" class="container__contact-box--img">
-        <span class="container__contact-box--name">Phone</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
-        <span class="container__contact-box--content">+ 48 654-430-309</span>
-      </div>
-    </div>
-   </div>
-  </div>
-  <div class="cotainer__support wrapper">
+    </footer>
 
-      <div class="cotainer__support-header">
-        <span>Departament</span>
-        <input type="radio" name="gender"> <span>Support</span>
-        <input type="radio" name="gender"> <span>Sales</span>
-      </div>
-     <div class="grid">
-      <div class="cotainer__support-input row l-o-2">
-        <div class="container__support-input--infor l-4"
-         style="
-         display: flex;
-        flex-direction: column;">
-        <input type="text" placeholder="Subject">
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Name@gmail.com">
-        </div>
-        <div class="container__support-input--mess l-4">
-          <input type="text" placeholder="Message...">
-        </div>
-      </div>
-     </div>
-     <div class="container__support-footer">
-      <div class="container__support-footer--left">
-      <input type="checkbox"> <span>I agree to terms and conditions.</span>
-      </div>
-      <button class="container__support-footer--btn">Submit</button>
-     </div>
-  </div>
-</div>
-<footer class="footer  wrapper">
-<div class="grid">
-  <div class="row">
-    <div class="footer__logo l-2">
-     <img src="./assets/img/Monst.svg" alt="">
-   </div>
-   <div class="footer__help l-3 l-o-05">
-     <span>Helping you maximize operations management with digitization</span>
-   </div>
-   <div class="footer__address l-2 l-o-2">
-     <h3>office</h3>
-     <span>359 Hidden Valley Road, NY</span>
-   </div>
-   <div class="footer__contact l-2 l-o-05">
-     <h3>Contact</h3>
-     <span>(+01) 234 568
-       contact@monst.com</span>
-   </div>
-  </div>
-</div>
-<div class="footer__link">
-  <div class="footer__link-left">
-    © 2022. All rights reserved. Designed by <span> Alithemes.com</span>
-  </div>
-  <div class="footer__link-right">
-    <img src="./assets/img/fb.svg" alt="">
-    <img src="./assets/img/twitter.svg" alt="">
-    <img src="./assets/img/insta.svg" alt="">
-  </div>
-</div>
-</footer>
-</body>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      var app = document.getElementById("typing");
+
+      var typewriter = new Typewriter(app, {
+        loop: true,
+      });
+
+      typewriter
+        .typeString("We are Monst, a Creative Design Web Agency")
+        .pauseFor(2500)
+        .deleteAll()
+        .start();
+    </script>
+  </body>
 </html>

@@ -1,6 +1,11 @@
 /* mobile and tablet */
 @media(max-width:1023px){
-   
+.header__navbar-list {
+    display: none;
+}
+.header__navbar-btn {
+    display: none;
+}
 }
 /* mobile */
 @media (max-width:739px) {
